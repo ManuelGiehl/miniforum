@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # DRF & Token-Auth
     'rest_framework',
     'rest_framework.authtoken',
-    # Projekt-Apps
+    # Project-Apps
     'user_auth_app',
     'forum_app',
 ]
