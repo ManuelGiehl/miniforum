@@ -14,4 +14,4 @@ class RegistrationView(generics.CreateAPIView):
 @api_view(["POST"])
 @permission_classes([AllowAny])
 def login_view(request):
-    return obtain_auth_token(request)
+    return obtain_auth_token(request._request)
